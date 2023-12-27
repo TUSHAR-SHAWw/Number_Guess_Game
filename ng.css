@@ -1,0 +1,76 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    background: #bbbbb9;
+}
+.container{
+    box-shadow: 0px 0px 20px 5px rgb(29, 1, 54);
+    height: 380px;
+    width: 380px;
+    margin: auto;
+    margin-top: 2rem;
+    background: rgb(29,0,64);
+    background: radial-gradient(circle, rgba(29,0,64,1) 49%, rgba(0,0,0,1) 100%);
+    border-radius: 10%;
+    color:white;
+    text-shadow:0px 0px 5px black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:500;
+}
+.head{
+    position: relative;
+    text-align: center;
+    top:14%;
+    font-size: 1.8rem;
+    align-self: center;
+    
+}
+.score{
+    position: relative;
+    width: fit-content;
+    padding: 0.1rem;
+    top: -6%;
+    left: 70%;
+    font-size: .8rem;
+    height: fit-content;
+    /* border: 1px solid black !important; */
+    border-radius: 5%;
+    
+}
+.hint{
+    opacity: 0%;
+    font-size: .8rem;
+    position: relative;
+    top: 30%;
+    left: 2%;
+}
+.guide{
+    position: relative;
+    top: 15%;
+    text-align: center;
+    font-size: 1.1rem;
+}
+input[type="number"]{
+    width: 8rem;
+    height: 2.5rem;
+    font-size: 2.2rem;
+    position: relative;
+    top: 30%;
+    left: 33%;
+    text-align: center;
+    background: #d0cece;
+    
+}
+.btn{
+    background: #4c039f;
+    height: 3rem;
+    width: 7rem;
+    position: relative;
+    color:inherit;
+    left: 0%;
+    top: 48%;
+    text-align: center;
+    font-size: 1.5rem;
+    }
